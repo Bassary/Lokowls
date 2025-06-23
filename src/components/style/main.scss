@@ -1,0 +1,78 @@
+//VARIALBE **************************
+
+$main-color: #00FBD3;
+$second-color: #149F89;
+$block-color: rgba(9, 12, 53, 0.55);
+
+
+// MIXIN ****************************
+
+@mixin background-blur() {
+    backdrop-filter: blur(10px);
+    background-color: $block-color;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+
+// GENERAL ******************
+
+@font-face {
+    font-family: 'Luminari';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Luminari'), url('Luminari-Regular.woff') format('woff');
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1 {
+    font-family: 'Luminari';
+    font-size: 36px;
+    color: white;
+}
+
+h2 {
+    color: $main-color;
+    font-size: 75px;
+}
+
+p {
+    color: white;
+    font-size: 23px;
+}
+
+h2,
+button,
+p {
+    font-family: 'Jersey 15', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    background: none;
+    border: 3Px solid $main-color;
+    border-radius: 13px;
+    padding: 8px 24px 8px 24px;
+    font-size: 20px;
+    color: $main-color;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+
+body {
+    background-color: #04051A;
+}
