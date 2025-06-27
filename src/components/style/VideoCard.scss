@@ -1,0 +1,15 @@
+@import './main.scss';
+
+.video-card {
+    border-bottom: 1px solid $second-color;
+    margin-bottom: 56px;
+
+    &__text {
+        margin-top: 16px;
+        margin-bottom: 27px;
+    }
+
+    button {
+        margin-bottom: 32px;
+    }
+}

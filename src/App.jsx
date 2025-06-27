@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Showreal from './components/Showreal'
 import About from './components/About'
 import './components/style/main.scss'
+import ClipCourt from './components/ClipCourt'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <main className='content'>
       <Showreal />
       <About />
+      <ClipCourt />
     </main>
     </>
     

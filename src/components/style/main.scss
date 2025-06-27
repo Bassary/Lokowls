@@ -3,6 +3,7 @@
 $main-color: #00FBD3;
 $second-color: #149F89;
 $block-color: rgba(9, 12, 53, 0.55);
+$backround-color: #04051A;
 
 
 // MIXIN ****************************
@@ -12,6 +13,15 @@ $block-color: rgba(9, 12, 53, 0.55);
     background-color: $block-color;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+@mixin max-width() {
+    max-width: 1200px;
+}
+
+@mixin border() {
+    border: 3px solid $main-color;
+    border-radius: 13px;
 }
 
 
@@ -29,9 +39,16 @@ $block-color: rgba(9, 12, 53, 0.55);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 65px;
-    margin-left: 60px;
-    margin-right: 60px;
+    gap: 100px;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+p,
+li {
+    cursor: default;
 }
 
 h1 {
@@ -43,16 +60,26 @@ h1 {
 h2 {
     color: $main-color;
     font-size: 75px;
+    background-color: $backround-color;
+    padding: 3px;
+    z-index: 1;
 }
 
-p {
-    color: white;
-    font-size: 23px;
+h3 {
+    color: $second-color;
+    font-size: 32px;
+}
+
+p,
+li {
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    font-family: 'Jersey 25', sans-serif;
 }
 
 h2,
-button,
-p {
+h3,
+button {
     font-family: 'Jersey 15', sans-serif;
     font-weight: 400;
 }
@@ -74,5 +101,7 @@ button {
 
 
 body {
-    background-color: #04051A;
+    background-color: $backround-color;
 }
+
+// MEDIA QUERY ********************

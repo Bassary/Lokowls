@@ -3,21 +3,28 @@ import './style/About.scss'
 function About() {
     return (
         <section className="about">
-            <div>
-                <h2>À Propos</h2>
-                <p>Venant d’études audiovisuelles au sens large, j’ai longtemps, et je continue encore, à
-                    toucher à tout. J’estime que connaître les bases d’un grand panel de métiers audiovisuels permet
-                    une vision plus claire des possibilités.<br></br>
-                    Aujourd’hui monteur vidéo, motion designer et parfois régisseur, je cherche à poursuivre
-                    les expériences, multiplier les projets, perfectionner mes techniques.<br></br>
-                    J’aspire à l’ambition - peut
-                    être folle - de pouvoir réaliser tout projet qui me serai présenté ou me viendrai à l’esprit. Je pense
-                    que dans ce corps de métier, en étant bien entouré et entrainé, c’est possible.
-                </p>
+            <h2>À Propos</h2>
+            <div className='about__text'>
+                <div className='about__text--competance'>
+                    <h3>Compétances :</h3>
+                    <p>présentation des compétance. Soit avec un block texte</p>
+                    <p>Soit en liste</p>
+                    <ul>
+                        <li>Skill 1</li>
+                        <li>Skill 2</li>
+                        <li>Skill 3</li>
+                    </ul>
+                </div>
+                <div className='about__text--parcours'>
+                    <h3>Parcours :</h3>
+                    <p>présentation du parcours.</p>
+                </div>
+                <div className='about__text--personnalite'>
+                    <h3>Personnalité:</h3>
+                    <p>présentation de ta personnalite, tes inspiration, methode de travail etc.</p>
+                </div>
             </div>
-            <div>
-                <img src="./src/assets/steph-portrait.png"/>
-            </div>
+            <img src='../src/assets/profil-lokowls.png'/>
         </section>
     )
 }

@@ -2,5 +2,27 @@
 
 .about {
     display: flex;
-    justify-content: space-between;
+    padding: 64px;
+    position: relative;
+    @include border();
+
+    h2 {
+        position: absolute;
+        top: -52px;
+    }
+
+    img {
+        height: 200px;
+        @include border();
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+
+        ul {
+            padding-left: 36px;
+        }
+    }
 }
