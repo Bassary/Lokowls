@@ -4,6 +4,7 @@ import Showreal from './components/Showreal'
 import About from './components/About'
 import './components/style/main.scss'
 import ClipCourt from './components/ClipCourt'
+import Emission from './components/Emission'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Showreal />
       <About />
       <ClipCourt />
+      <Emission />
     </main>
     </>
     

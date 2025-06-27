@@ -6,7 +6,6 @@ function ClipCourt (){
     return (
         <section className="clip-court">
                 <h2>Clip & Court-Métrage</h2>
-                <div className="line"></div>
             <div className="clip-court__flex">
                 <VideoCard
                     link={"https://www.youtube.com/watch?v=yZwhMv_Xqug&ab_channel=SEXBLOOD"}
@@ -34,7 +33,7 @@ function ClipCourt (){
                     description="Making-Off - 14:57 - 2023">
                 </VideoCard>
                 <div className="container-img">
-                    <img src="../src/assets/bulle-1.svg"/>
+                    <img className="bulle" src="../src/assets/bulle-1.svg"/>
                 </div>
                 
             </div>
