@@ -1,0 +1,17 @@
+@import './main.scss';
+
+.showreal {
+    max-width: 1200px;
+    width: 100%;
+    max-height: 735px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+    &__title {
+        color: $second-color;
+        font-size: 32px;
+    }
+}

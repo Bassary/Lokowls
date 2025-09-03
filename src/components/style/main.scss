@@ -1,0 +1,521 @@
+//VARIALBE **************************
+
+$main-color: #00e7c0;
+$second-color: #149F89;
+$block-color: rgba(9, 12, 53, 0.55);
+$backround-color: #04051A;
+$input-color: #070929;
+
+
+// MIXIN ****************************
+
+
+@mixin background-blur() {
+    backdrop-filter: blur(10px);
+    background-color: $block-color;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+@mixin max-width() {
+    max-width: 1200px;
+}
+
+@mixin border() {
+    border: 3px solid $main-color;
+    border-radius: 13px;
+}
+
+@mixin border2() {
+    border: 1px solid $second-color;
+    border-radius: 13px;
+}
+
+
+
+// GENERAL ******************
+
+@font-face {
+    font-family: 'Luminari';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Luminari'), url('Luminari-Regular.woff') format('woff');
+}
+
+
+
+body {
+    background-color: $backround-color;
+}
+
+
+header,
+footer {
+    position: sticky;
+    top: 0;
+    margin: 20px 40px 20px 40px;
+    padding-top: 5px;
+    z-index: 9;
+}
+
+h1,
+h2,
+h3,
+p,
+li {
+    cursor: default;
+}
+
+h1 {
+    font-family: 'Luminari';
+    font-size: 36px;
+    color: white;
+}
+
+h2 {
+    color: $main-color;
+    font-size: 75px;
+    background-color: $backround-color;
+    padding: 3px;
+    z-index: 1;
+}
+
+.titre-h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+
+    .logo {
+        height: 52px;
+        ;
+    }
+}
+
+h3 {
+    color: $second-color;
+    font-size: 32px;
+}
+
+p,
+li,
+label,
+input,
+textarea,
+span,
+a {
+    color: rgb(215, 215, 215);
+    font-size: 20px;
+    font-family: 'Jersey 25', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+input,
+textarea {
+    padding: 6px 12px 6px 12px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input,
+textarea {
+    background-color: $input-color;
+    @include border2;
+}
+
+textarea {
+    resize: none;
+    height: 146px;
+}
+
+h2,
+h3,
+button,
+.btn-submit {
+    font-family: 'Jersey 15', sans-serif;
+    font-weight: 400;
+    border-radius: 13px;
+}
+
+button,
+.btn-submit {
+    border-radius: 13px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.more-info-btn {
+    margin-top: 36px;
+}
+
+.player {
+    transition: all ease-in-out 250ms;
+    aspect-ratio: 16 / 9;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+iframe {
+    aspect-ratio: 16/9;
+}
+
+.gif {
+    width: 500px;
+    height: 286px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+}
+
+.bulle {
+    height: 316px;
+}
+
+.container-gif {
+    transition: all ease-in-out 250ms;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.container-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .container-img {
+        padding-top: 37px;
+
+        .bulle {
+            width: 600px;
+            height: 446px;
+        }
+
+        .bulle-v2 {
+            display: none;
+        }
+    }
+
+
+
+    .animation__flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .animation-container-video__flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 36px;
+        justify-content: center;
+        padding-top: 36px;
+    }
+
+    &__margin {
+        margin-bottom: 64px;
+    }
+
+    &__flex {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1300px;
+        justify-content: center;
+        // margin: 30px;
+        // margin-bottom: 0;
+        // margin-top: 0;
+        gap: 36px;
+
+        &--div {
+            width: 500px;
+            height: 286px;
+        }
+    }
+}
+
+.bulle-dialogue {
+    padding-top: 36px;
+    height: 316px;
+}
+
+
+// MEDIA QUERY ********************
+
+
+// Small divice (to 1235px into 920px)  ******
+
+@media (max-width : 1200px) {
+    .div-footer {
+        flex-direction: column;
+        gap: 50px !important;
+
+        .container-left {
+            flex-direction: row !important;
+            align-items: end !important;
+
+            &__contact-insta {
+                display: flex;
+                gap: 36px;
+            }
+
+        }
+    }
+
+    .main-btn {
+        width: auto;
+
+    }
+
+    .modal__content {
+        width: 80% !important;
+    }
+
+}
+
+// Tablette & Phone (to 920px into 360px)  *******************
+
+@media (max-width: 920px) {
+
+    // général ******
+
+    .content {
+        gap: 64px;
+
+        iframe {
+            aspect-ratio: 16/9;
+        }
+    }
+
+    // Modale ******
+
+    .fiche-info__text {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 42px !important;
+    }
+
+    .titre-h2 {
+        flex-direction: column;
+        text-align: center;
+
+        .logo {
+            height: 46px;
+        }
+    }
+
+    h3 {
+        font-size: 28px !important;
+    }
+
+    p {
+        font-size: 18px !important;
+    }
+
+    .modal__content {
+        width: 90% !important;
+        height: 70% !important;
+    }
+
+
+    // header & navbarr ******
+    header {
+        margin: 3px;
+
+        .navbar__right--insta {
+            margin-right: 86px;
+        }
+
+        .navbar__left--logo {
+            height: 60px;
+        }
+    }
+
+    .btn-modal {
+        top: 16px;
+    }
+
+    .main-btn {
+        padding: 3px 12px 3px 12px;
+
+
+        .btn-text {
+            display: none;
+        }
+
+        .logo-mail {
+            display: block !important;
+            height: 34px;
+        }
+    }
+
+    // showreal ******
+
+    .showreal__title {
+        text-align: center;
+        margin: 10px 20px 10px 20px !important;
+        font-size: 24px !important;
+    }
+
+
+    // About ****** 
+
+    .about {
+
+        margin: 0px 3px 0px 3px;
+        padding: 28px 14px;
+
+        &__content {
+            gap: 24px;
+
+            .block-txt {
+                gap: 24px;
+            }
+        }
+
+        h2 {
+            top: -32px;
+        }
+    }
+
+    .block-img-txt {
+        .portrait {
+            display: none;
+        }
+    }
+
+    // Video & Animation content ******
+
+    .more-info-btn {
+        height: 40px;
+    }
+
+    .video-card {
+        width: 100% !important;
+
+        &__content {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 16px;
+        }
+    }
+
+    .container-video__flex {
+        gap: 18px;
+    }
+
+    .container-video {
+
+        .container-img {
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+
+            .bulle {
+                display: none;
+            }
+
+            .bulle-v2 {
+                display: block;
+                width: 500px;
+            }
+        }
+
+        .bulle-dialogue {
+            width: 500px;
+            height: auto;
+            padding-top: 24px;
+        }
+    }
+
+    .gif {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+
+    .logo-pause,
+    .logo-play {
+        display: block !important;
+    }
+
+    // Footer **********
+
+    footer {
+        margin: 3px;
+        align-items: center;
+    }
+
+    .container-left {
+        flex-wrap: wrap;
+        gap: 18px;
+
+        &__contact-insta {
+            flex-wrap: wrap;
+            gap: 12px !important;
+        }
+    }
+
+    .bulle-5 {
+        display: none;
+    }
+
+    .bulle-5-v2 {
+        display: block !important;
+        height: 420px;
+        width: fit-content;
+    }
+
+}
+
+// Spetial bulle to 540px end less *******************
+
+@media (max-width: 540px) {
+
+    .bulle-dialogue,
+    .bulle-v2,
+    .bulle-5-v2 {
+        width: 95% !important;
+        height: auto;
+    }
+
+
+
+
+}
+
+
+
+
+@media (min-width : 1572px) {
+
+    .container-video__flex--div {
+        display: none;
+
+    }
+}

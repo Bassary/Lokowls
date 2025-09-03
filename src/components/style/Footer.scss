@@ -1,0 +1,28 @@
+@import './main.scss';
+
+
+.div-footer {
+    @include background-blur();
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    gap: 100px;
+    z-index: 1;
+
+    .container-left {
+        display: flex;
+        flex-direction: column;
+        border-left: 3px solid $main-color;
+        padding-left: 36px;
+        justify-content: space-between;
+
+    }
+
+    .bulle-5 {
+        width: 676px;
+    }
+
+    .bulle-5-v2 {
+        display: none;
+    }
+}

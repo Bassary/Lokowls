@@ -1,0 +1,17 @@
+@import './main.scss';
+
+.gif-img-container {
+
+    position: relative;
+
+
+    .logo-pause,
+    .logo-play {
+        position: absolute;
+        left: 20px;
+        bottom: 24px;
+        border: 2px solid $second-color;
+        border-radius: 100px;
+        display: none;
+    }
+}

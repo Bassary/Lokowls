@@ -1,0 +1,59 @@
+@import './main.scss';
+
+.about {
+    display: flex;
+    padding: 64px;
+    position: relative;
+    @include border();
+    margin: 0px 40px;
+    max-width: 1000px;
+
+    h2 {
+        position: absolute;
+        top: -52px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    ul {
+        padding-left: 18px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    .portrait {
+        height: 387px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+
+        .block-img-txt {
+            display: flex;
+            align-items: center;
+        }
+
+        .block-txt {
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+        }
+
+        &--block-text {
+            display: block;
+
+            .titre {
+                display: flex;
+                gap: 16px;
+                margin-bottom: 8px;
+            }
+        }
+
+    }
+}
