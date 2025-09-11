@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './style/Modal.scss'
+import { motion } from "framer-motion";
 
 function Modal({ title, btnText, children, className, btnClassName }) {
   const [modal, setModal] = useState(false)
@@ -24,16 +25,16 @@ function Modal({ title, btnText, children, className, btnClassName }) {
         <img className="logo-mail" src="assets/logo-mail.svg" alt="logo email" />
       </button>
       {modal && (
-        <div className="modal">
-          <div onClick={toggleModal} className="overlay"></div>
-          <div className={className}>
+        <motion.div className="modal" initial={{ opacity: 0, }} animate={{ opacity: 1 }} >
+          <motion.div onClick={toggleModal} className="overlay"></motion.div>
+          <motion.div className={className} initial={{ scale: 0.9 }} animate={{ scale: 1 }}  >
             <h2>{title}</h2>
             {children}
             {/* <button className="close-modal btn-info" onClick={toggleModal}> */}
             {/* <img src="assets/cross.svg" alt="button de fermeture" /> */}
             {/* </button> */}
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       )}
     </>
 
