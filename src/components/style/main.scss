@@ -312,6 +312,11 @@ iframe {
         padding-right: 16px;
     }
 
+    .modal__content {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
     h1 {
         font-size: 22px;
     }
@@ -493,7 +498,7 @@ iframe {
 
 }
 
-// Spetial bulle to 540px end less *******************
+// Special bulle to 540px and less *******************
 
 @media (max-width: 540px) {
 
@@ -504,12 +509,7 @@ iframe {
         height: auto;
     }
 
-
-
-
 }
-
-
 
 
 @media (min-width : 1572px) {
