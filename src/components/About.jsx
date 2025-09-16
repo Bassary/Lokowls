@@ -25,7 +25,7 @@ function About() {
                             </div>
                             <ul>
                                 <li>Logiciels : Première Pro, After Effect, Photoshop, Davinci, Vmix.</li>
-                                <li><span>Montage/Motion Design :</span> court-métrage, YouTube, clip, réseaux sociaux, best-off, montage d'entreprise.</li>
+                                <li><span>Montage/Motion Design :</span> court-métrage, YouTube, clip, réseaux sociaux, best-of, montage d'entreprise.</li>
                                 <li><span>Direction Artistique :</span> motion graphic, animation, chaînes Twitch</li>
                                 <li><span>Régie/Réalisation :</span> storyboard, régie en direct, support technique</li>
                             </ul>
