@@ -14,9 +14,9 @@ function About() {
                                 <img className='logos' src='assets/logo-compass.svg' alt='logo boussole' />
                                 <h3>Parcours :</h3>
                             </div>
-                            <p>Après avoir fini mes études d'audiovisuel option montage en 2022, j'ai passé un an dans une radio en tant que référent audiovisuelle dans le cadre d'un service civique. Cette expérience à la fois humaine et professionnelle, m'a permis d'affiner mes compétences et de nourrir ma curiosité.</p>
+                            <p>Après avoir fini mes études d'audiovisuel option montage en 2022, j'ai passé un an dans une radio en tant que référent audiovisuel dans le cadre d'un service civique. Cette expérience à la fois humaine et professionnelle, m'a permis d'affiner mes compétences et de nourrir ma curiosité.</p>
                             <br></br>
-                            <p>Par la suite, de 2023 à 2025, j'ai travaillé dans une boîte de production audiovisuelle située à Strasbourg, occupant le poste de monteur vidéo et technicien. Également organisme de formation, j'ai une location d'être formateur After Effects, Davinci et Première Pro.</p>
+                            <p>Par la suite, de 2023 à 2025, j'ai travaillé dans une boîte de production audiovisuelle située à Strasbourg, occupant le poste de monteur vidéo et technicien. Également organisme de formation, j'ai eu l'occasion d'être formateur After Effects, Davinci et Première Pro.</p>
                         </div>
                         <div className='about__content--block-text'>
                             <div className='titre'>

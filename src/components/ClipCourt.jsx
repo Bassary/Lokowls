@@ -35,13 +35,13 @@ function ClipCourt() {
                 ></VideoCard>
                 <VideoCard
                     link={"https://www.youtube.com/watch?v=UBaHH_gvdJc&ab_channel=St%C3%A9phaneD.S.O"}
-                    title="No Loco No Logo - Benoit Vincent"
+                    title="No Logo No Loco - Benoit Vincent"
                     description="Clip - 3:29 - 2023"
                     className="video-card__content"
                     children={
                         <Info
                             imageSrc="assets/no-loco-capture.png"
-                            imageAlt="clip no loco no logo de Benoit Vincent"
+                            imageAlt="clip no logo no loco de Benoit Vincent"
                             information=" Pour ce clip, j'ai reçu comme instruction de ne pas montrer l'artiste chanter.
                             Le budget très réduit nous a guidé vers du matériel de récupération.
                             L’idée était de jouer avec les ordures, les choses que l’on ne veut plus, qu’on laisse traîner,
@@ -81,13 +81,13 @@ function ClipCourt() {
                         </VideoCard>
                         <VideoCard
                             link={"https://www.youtube.com/watch?v=p1FCF72m_qg&ab_channel=St%C3%A9phaneD.S.O"}
-                            title="Pluie de Pixel - Benoit Vincent"
+                            title="Pluies de Pixels - Benoit Vincent"
                             description="Clip - 2:57 - 2023"
                             className="video-card__content"
                             children={
                                 <Info
                                     imageSrc="assets/pixel-capture.png"
-                                    imageAlt="clip pluie de pixel de Benoit Vincent"
+                                    imageAlt="clip pluies de pixels de Benoit Vincent"
                                     information="Pluie de Pixel est le premier clip vidéo que j'ai réalisé pour l’artiste Benoit Vincent. Pour créer ce rendu, j'ai utilisé un rétroprojecteur sur la danseuse, pour ensuite alterner avec des doubles expositions du musicien, créées sur After Effect.
                                         J'ai une certaine tendresse à revoir ces projets de début de carrière, qui me rappellent que la simplicité peut être une belle source de créativité."
                                     poste="Réalisation et montage"

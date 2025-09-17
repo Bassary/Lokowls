@@ -25,7 +25,7 @@ function Emission() {
                             reproduire une jungle en studio avec de très faibles moyens fut un défi. Nous avons eu accès à un studio grâce à l’aide de Knack Knack production.
                             Pour l’univers graphique, j’ai été aidé par l’illustratrice Sibylle Guyot :
                             nous avons réalisé un générique et tout un plan de communication sur les réseaux pour présenter l’émission. Le jour J,
-                            il m’a fallu gérer une petite équipe de régisseurs pour guider les mouvement de caméra, les changements de voix, les arrivées d’éléments graphiques,
+                            il m’a fallu gérer une petite équipe de régisseurs pour guider les mouvements de caméra, les changements de voix, les arrivées d’éléments graphiques,
                             les changements de lumière, etc. Le Trek est un projet très complet dont tous les collaborateurs sont particulièrement fiers."
                             poste="Montage vidéo / Création de DA / Univers graphique / Création de décors / Réa / Régie en direct / Motion design"
                         />}
@@ -45,7 +45,7 @@ function Emission() {
                                             Pour cette première édition, l’univers du Dilemme se passe en 2049, dans une Europe sur le point de basculer à cause d'une loi peu éthique, votée dans l'ombre par des élus corrompus.
                                             Mais un hacker décide d'intervenir, filmant clandestinement la réunion pour la diffuser dans tout le continent. Ainsi le spectateur devient citoyen et peut faire entendre sa voix pour changer l'histoire...
                                             Ce projet a été monté avec une petite équipe, soutenue par la boîte de production Isimara qui nous a mis à disposition leur studio. L'autrice Lisa Dupuis a écrit toute l'histoire;
-                                            j'ai travaillé sur le visuel, l'implication du public durant le live ainsi que les modules audiovisuel défilant pendant le jeu afin de rendre l'univers palpable.
+                                            j'ai travaillé sur le visuel, l'implication du public durant le live ainsi que les modèles audiovisuels défilant pendant le jeu afin de rendre l'univers palpable.
                                             Pour paramétrer le tout j'ai utilisé le logiciel Vmix, qui permet de synchroniser les lumières, les effets visuels, le jingle et le décor. Le jour de la diffusion,
                                             j'étais aux commandes dans la régie gérant les changements de caméra et le lancement de tous les événements."
                             poste="Montage Vidéo / Création de DA / Univers graphique / Motion design / Réa / Régie en direct"
