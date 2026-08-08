@@ -17,7 +17,7 @@ function Footer() {
                         <a href='https://www.instagram.com/stephane_d.s.o/?__d=1' target='_blank'>@stephane_d.s.o</a>
                     </div>
                 </div>
-                <span>©LOKOWLS - 2025</span>
+                <span>©LOKOWLS - 2026</span>
             </div>
 
         </footer>

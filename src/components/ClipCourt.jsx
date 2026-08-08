@@ -20,6 +20,21 @@ function ClipCourt() {
             </div>
             <div className="container-video__flex">
                 <VideoCard
+                    link={"https://www.youtube.com/watch?v=UrnHyRNJF1w"}
+                    title="Radium Girl - Sexblood"
+                    description="Clip - 3:38 - 2026"
+                    className="video-card__content"
+                    children={
+                        <Info
+                            imageSrc="assets/radium-girl-capture.png"
+                            imageAlt="clip Radium Girl du group Sexblood"
+                            information="Pour ce second clip du groupe gothique Sexblood, on change d'univers et on s'intéresse aux Radium Girls. Les Radium Girls étaient des femmes travaillant en usine, chargées de peindre des montres et des horloges selon une technique très spécifique : « lip, dip, paint ». Elles léchaient leur pinceau pour le rendre fin et précis, le trempaient dans la peinture, peignaient, puis répétaient le processus.Seulement, la peinture utilisée contenait du radium, ce qui les rendait gravement malades.
+                            Ce clip cherche à représenter cette radioactivité, incarnée par la couleur verte des animations, entièrement réalisées à la main sur Procreate Dreams. D'abord discrète et ponctuelle, cette couleur s'intensifie progressivement jusqu'à envahir toute la fin du clip. À l'image de la maladie, elle progresse au fil du temps, devient omniprésente et finit par être irréversible.
+                            Toujours avec une colorimétrie très contrastée et une pointe d’ambition supplémentaire pour les plans, réaliser un clip pour Sexblood est un véritable terrain de jeu créatif et un immense plaisir."
+                            poste="Réalisation, montage, animation"
+                        />}
+                ></VideoCard>
+                <VideoCard
                     link={"https://www.youtube.com/watch?v=yZwhMv_Xqug&ab_channel=SEXBLOOD"}
                     title="I Talk to The Dead - Sexblood"
                     description="Clip - 3:14 - 2025"
