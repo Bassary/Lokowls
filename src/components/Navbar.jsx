@@ -9,7 +9,7 @@ function Navbar (){
                 <h1 className='navbar__left--title'>LOKOWLS</h1>
             </div>
             <div className='navbar__right'>
-                <a href="https://www.instagram.com/stephane_d.s.o/?__d=1" target='_blank'><img className='navbar__right--insta' src="assets/logo-insta.svg" alt="logo instagram"></img></a>
+                <a href="https://www.instagram.com/lokowls" target='_blank'><img className='navbar__right--insta' src="assets/logo-insta.svg" alt="logo instagram"></img></a>
             </div>
         </div>
     )
