@@ -14,7 +14,7 @@ function Footer() {
                     </div>
                     <div>
                         <h3>Instagram :</h3>
-                        <a href='https://www.instagram.com/lokowls' target='_blank'>@stephane_d.s.o</a>
+                        <a href='https://www.instagram.com/lokowls' target='_blank'>@lokowls</a>
                     </div>
                 </div>
                 <span>©LOKOWLS - 2026</span>
